@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style type="text/css">
+      html, body, form, p, div {
+        display: block;
+        margin: 0;
+        padding: 0;
+        font: sans-serif;
+      }
+      section {
+        margin: 1px;
+      }
+      .buttons {
+	      display: flex;
+      }
+      input.time_button {
+        width: 40px;
+        padding: 2px;
+        font-weight: normal;
+      }
+      #stop_button {
+        display: block;
+        width: 100px;
+        padding: 1px;
+        box-sizing: border-box;
+      }
+    </style>
+  </head>
+  <body>
+    <section id="buttons">
+      <input type="button" class="time_button" data-seconds="15" value="15s">
+      <input type="button" class="time_button" data-seconds="30" value="30s">
+      <input type="button" class="time_button" data-seconds="60" value="60s">
+      <input type="button" class="time_button" data-seconds="120" value="120s">
+    </section>
+
+    <section id="other_buttons_section" style="display: block;">
+      <input type="button" id="stop_button" value="Stop refreshing">
+    </section>
+  </body>
+
+  <script src="popup.js"></script>
+</html>

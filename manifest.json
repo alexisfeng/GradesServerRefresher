@@ -1,0 +1,24 @@
+{
+  "name": "Regrade Request Notifier",
+  "version": "1.0",
+  "description": "Indicates the number of pending regrade requests.",
+  "permissions": ["https://grades.cs.umd.edu/classWeb/processRegrade.cgi?*", "activeTab", "tabs"],
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": true
+  },
+  "browser_action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "images/RG_16.png",
+      "32": "images/RG_32.png",
+      "48": "images/RG_48.png"
+    }
+  },
+  "icons": {
+    "16": "images/RG_16.png",
+    "32": "images/RG_32.png",
+    "48": "images/RG_48.png"
+  },
+  "manifest_version": 2
+}
