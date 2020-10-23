@@ -1,7 +1,7 @@
 {
-  "name": "Regrade Request Notifier",
+  "name": "Regrade Request Refresher",
   "version": "1.0",
-  "description": "Indicates the number of pending regrade requests.",
+  "description": "Auto-refreshes the regrade requests page.",
   "permissions": ["https://grades.cs.umd.edu/classWeb/processRegrade.cgi?*", "activeTab", "tabs"],
   "background": {
     "scripts": ["background.js"],

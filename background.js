@@ -46,7 +46,7 @@ chrome.runtime.onMessage.addListener(function(request) {
 });
 
 
-/** In case I can ever get fetching all of the html to work... */
+/** In case I can ever get permissions for fetching the html to work... */
 /*
 chrome.tabs.onUpdated.addListener(function (tId, changeInfo, tab) {
   if (changeInfo.status === "complete") {
